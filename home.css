@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bgimage{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: url(clint-patterson-dYEuFB8KQJk-unsplash.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: 8px solid white;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.btn{
+    color: white;
+    font-size: 24px;
+    background-color: rgb(4, 48, 80);
+    height: 60px;
+    width: 240px;
+    margin-top: 8%;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:hover{
+    opacity: 0.9;
+    background-color: rgb(14, 128, 227);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.wel{
+    font-size: 30px;
+    color: aliceblue;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+

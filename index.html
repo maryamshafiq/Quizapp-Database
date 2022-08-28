@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal info</title>
+    <link rel="stylesheet" href="form.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+  apiKey: "AIzaSyAqcqoGXMOVQI222e_7z-QP3rnbzaFLS60",
+  authDomain: "f-database-project.firebaseapp.com",
+  databaseURL: "https://f-database-project-default-rtdb.firebaseio.com",
+  projectId: "f-database-project",
+  storageBucket: "f-database-project.appspot.com",
+  messagingSenderId: "318370215317",
+  appId: "1:318370215317:web:f3f4d21e2c04f72baa729c",
+  measurementId: "G-R0RFG5SR9J"
+};
+        firebase.initializeApp(firebaseConfig);
+        console.log(firebase)
+        console.log(firebase.database)
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="signup-box">
+            <!-- <form action="home.html" onsubmit="signup()"> -->
+            <div class="form">
+                <h1>Signin Form</h1>
+                <label for="name">Name</label>
+                <input type="text" class="inpbox" id="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" class="inpbox" id="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" class="inpbox" id="pass" required>
+
+                <button onclick="signup()">Submit</button>
+
+                <p>
+                    Already have account <a href="login.html">Login here</a>
+                </p>
+            </div>
+            <!-- </form> -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

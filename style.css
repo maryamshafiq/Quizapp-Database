@@ -1,0 +1,108 @@
+/* .options{
+    display: flex;
+    flex-direction: column;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 92%, 94%);
+}
+
+.inner-div{
+    width: 40vw;
+    padding: 30px 80px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 10px 10px -0.7px rgba(0, 0, 0, 0.4);
+    height: fit-content;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 0 4px 0;
+    
+}
+li{
+    list-style: none;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+#submit, .btn {
+    padding: 10px 30px;
+    outline: none;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color:  rgb(4, 48, 80);
+    margin-top: 10px;
+    border-radius: 8px;
+
+}
+
+#submit :disabled{
+    background-color: grey;
+}
+
+
+#showscore{
+    background-color: wheat;
+    margin-top: 30px;
+    padding: 30px 40px;
+    box-shadow: 0 10px 3px rgba(0, 0, 0, 0.4);
+}
+
+.scorearea{
+    display: none;
+}
+
+#showscore .btn{
+    padding: 10px 30px;
+    outline: none;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    background-color:  rgb(4, 48, 80);
+    margin-top: 40px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border-radius: 8px;
+
+}
+
+#showscore .btn:hover{
+    background-color: rgb(14, 128, 227);
+    color: white;
+}
+
+#showscore h3 {
+    font-size: 24px;
+    text-align:center;
+}
+
+.user{
+    font-style: italic;
+    font-size: 30px;
+    color:  rgb(4, 48, 80);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
